@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHRIYA SHARMA | Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing my projects, skills, and experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <!-- Floating Tech Stack Background -->
+    <div class="tech-icon floating-1"><i class="fa-brands fa-react" style="color: #61DAFB;"></i></div>
+    <div class="tech-icon floating-2"><i class="fa-brands fa-node-js" style="color: #68A063;"></i></div>
+    <div class="tech-icon floating-3"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i></div>
+    <div class="tech-icon floating-4"><i class="fa-brands fa-python" style="color: #3776AB;"></i></div>
+    <div class="tech-icon floating-5"><i class="fa-brands fa-html5" style="color: #E34F26;"></i></div>
+    <div class="tech-icon floating-6"><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Shriya<span class="highlight">Sharma</span>.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero / Biography Section -->
+        <section id="about" class="hero section-padding">
+            <div class="hero-content">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span> Available for new projects
+                </div>
+                <h1 class="dev-name">
+                    <span class="gradient-text">SHRIYA SHARMA</span>
+                </h1>
+                <div style="display: flex; margin-bottom: 1.5rem; align-items: center; gap: 10px;">
+                    <span class="code-bracket" style="color: var(--accent-color); font-weight: bold; font-family: var(--font-code); font-size: 1.8rem;">&lt;</span>
+                    <h2 class="typewriter" style="font-size: 1.8rem; font-weight: 500; color: var(--text-primary); margin: 0;">The Creative Web Developer</h2>
+                    <span class="code-bracket" style="color: var(--accent-color); font-weight: bold; font-family: var(--font-code); font-size: 1.8rem;">/&gt;</span>
+                </div>
+                <p class="bio" style="font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 2rem;">
+                    I build exceptional digital experiences. Specialized in crafting modern, responsive, and highly interactive web applications with a focus on clean code and premium aesthetics.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-code" style="margin-right: 8px;"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fa-regular fa-paper-plane" style="margin-right: 8px;"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-glow"></div>
+                <img src="shriya2.jpg" alt="Shriya Sharma Profile Picture" class="hero-image" id="profile-img">
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <h2 class="section-title">My <span class="highlight">Tech Stack</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card hidden">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <i class="fa-solid fa-code skill-icon"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Creating beautiful, responsive interfaces using modern HTML, CSS, and JavaScript frameworks.</p>
+                    <div class="tags">
+                        <span>React</span><span>Vue</span><span>CSS3</span><span>HTML5</span>
+                    </div>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <i class="fa-solid fa-server skill-icon"></i>
+                    <h3>Backend Architecture</h3>
+                    <p>Designing robust and scalable server-side solutions and RESTful APIs.</p>
+                    <div class="tags">
+                        <span>Node.js</span><span>Python</span><span>SQL</span><span>NoSQL</span>
+                    </div>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="window-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    </div>
+                    <i class="fa-solid fa-pen-nib skill-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Focusing on user-centric design principles, wireframing, and interactive prototyping.</p>
+                    <div class="tags">
+                        <span>Figma</span><span>Prototyping</span><span>Wireframing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="projects section-padding">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card hidden">
+                    <div class="project-img-wrapper">
+                        <img src="project1-placeholder.jpg" alt="Project 1" class="project-img" id="proj1-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project 1"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with real-time inventory management and secure payment
+                            processing.</p>
+                        <div class="tags">
+                            <span>React</span><span>Node.js</span><span>Stripe</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 2 -->
+                <article class="project-card hidden" style="transition-delay: 100ms;">
+                    <div class="project-img-wrapper">
+                        <img src="project2-placeholder.jpg" alt="Project 2" class="project-img" id="proj2-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project 2"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Financial Dashboard</h3>
+                        <p>An interactive analytics dashboard visualizing complex financial data with dynamic charts.
+                        </p>
+                        <div class="tags">
+                            <span>Vue</span><span>D3.js</span><span>Firebase</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 3 -->
+                <article class="project-card hidden" style="transition-delay: 200ms;">
+                    <div class="project-img-wrapper">
+                        <img src="project3-placeholder.jpg" alt="Project 3" class="project-img" id="proj3-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="View Project 3"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Content Generator</h3>
+                        <p>A SaaS application utilizing generative AI to create marketing copy and blog posts
+                            automatically.</p>
+                        <div class="tags">
+                            <span>OpenAI API</span><span>Next.js</span><span>Tailwind</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact & Profiles Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="contact-card hidden">
+                <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+                <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll
+                    try my best to get back to you!</p>
+                <a href="mailto:hello@example.com" class="btn btn-primary" style="margin-top: 2rem;">Say Hello</a>
+
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SHRIYA SHARMA. Built with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
